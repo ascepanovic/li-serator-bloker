@@ -1,10 +1,10 @@
 # LI Serator Bloker
 
 Je jednostavna ekstenzija za Chrome browser, napravljena prevashodno iz lične frustracije zbog (povremeno) katastrofalnog sadržaja u LinkedIn feed-u.  
-Iako blokiram i "unfollow"-ujem neke osobe, određene individue ipak uspijevaju da završe u mom feed-u a zaista mi se ne čitaju a ni ne gledaju koje kakve gluposti (ovo je lični utisak a ne potreba da vrijeđam bilo koga).
+Iako blokiram i "unfollow"-ujem neke osobe, određene individue ipak uspijevaju da završe u mom feed-u a zaista mi se ne čitaju a ni ne gledaju koje kakve gluposti (ovo je lični utisak, a ne potreba da vrijeđam bilo koga).
 
 Stoga, ova ekstenzija (bar se nadam) efikasno blokira komentare, lajkove i postove od ljudi/kompanija koje ne želite da viđate, jer se ispostavilo da LinkedIn-ov ugrađeni block feature jednostavno nije dovoljan.  
-Ja nisam Frontend programer a ni UI nije oblast mog djelovanja pa vas molim da eventualne greške u funkcionalnosti ili kodu ispravite ili da mi bar ukažete na iste.
+Ja nisam Frontend programer, a ni UI nije oblast mog djelovanja pa vas molim da eventualne greške u funkcionalnosti ili kodu ispravite ili da mi bar ukažete na iste.
 
 Ista je testirana na mašinama novije gnereacije (MacOS i Windows) i autor ne snosi nikakvu odgvornost u slučaju da ekstenzija ne radi na vašem rašunaru.
 
@@ -16,7 +16,7 @@ Svaki PR za poboljšanje funkcionalnosti je dobrodošao!
    ```bash
    git clone https://github.com/ascepanovic/li-serator-bloker.git
 
-2. Otvori Google Chrome i idi u adres bar-u na:
+2. Otvori Google Chrome i idi u address bar-u na:
     ```bash
    chrome://extensions/
 
@@ -55,7 +55,7 @@ Nakon toga, možemo da krenemo dalje:
 
     docs: izmjenjen README
    
-4. Same poruke kao i naziv grana može biti na Engleskom i Srpskom jeziku jer je ekstenzija pravljena prije svega za Srpsko govorno pordučje.
+4. Same poruke kao i naziv grana može biti na Engleskom i Srpskom jeziku jer je ekstenzija pravljena prije svega za srpsko govorno područje.
 
 5. Push-uj promjene.
 
@@ -68,14 +68,14 @@ Koristimo conventional commits, dakle: feat, fix, docs, refactor prefikse u comm
 
 Testiraš izmjene lokalno prije slanja PR-a.
 
-Komentari u kodu nisu neophodni ali ako izvodiš neku "magiju" onda su poželjni.
+Komentari u kodu nisu neophodni, ali ako izvodiš neku "magiju" onda su poželjni.
 
 Ako te interesuje na čemu bi mogao da radiš i kako da nam pomogneš mozeš da pogledaš [otvorene issues](https://github.com/ascepanovic/li-serator-bloker/issues) i napaneš bilo koji od njih.
 
 
 ## 💡 Zahvalnost saradnicima
 
-Hvala [Stanislav-u](https://www.linkedin.com/in/stanislavmanovic/) na korkecijama i pomoći u testiranju.
+Hvala [Stanislav-u](https://www.linkedin.com/in/stanislavmanovic/) na korekcijama i pomoći u testiranju.
 
 
 # 📄 Licenca

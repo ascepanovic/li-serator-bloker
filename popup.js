@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     saveBtn.addEventListener("click", () => {
         const names = textarea.value.split("\n").map(name => name.trim()).filter(name => name);
         chrome.storage.sync.set({ blocklist: names }, () => {
-            alert("Blocklist saved!");
+            alert("Block-lista je dopunjena!");
         });
     });
 });

@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         chrome.storage.sync.set({ blocklist: names }, () => {
             alert("Block-lista je dopunjena!");
             chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+                window.close(); // close the extension popup
                 chrome.tabs.reload(tabs[0].id); // reloads the current tab to see the changes
             });
         });

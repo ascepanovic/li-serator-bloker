@@ -4,8 +4,20 @@
   "version": "1.0",
   "description": "Blokira odredjene individue iz tvog LinkedIn feeda, tako da ne moras da gledas carape, snimke iz teretane, politicke promocije i slicna sranja",
   "permissions": ["storage", "scripting"],
+  "icons": {
+    "16": "icons/logo_2_512.png",
+    "32": "icons/logo_2_512.png",
+    "48": "icons/logo_2_512.png",
+    "128": "icons/logo_2_512.png"
+  },
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/logo_2_512.png",
+      "32": "icons/logo_2_512.png",
+      "48": "icons/logo_2_512.png",
+      "128": "icons/logo_2_512.png"
+    }
   },
   "content_scripts": [
     {

@@ -55,7 +55,7 @@ Nakon toga, možemo da krenemo dalje:
 
     docs: izmjenjen README
    
-4. Same poruke kao i naziv grana može biti na Engleskom i Srpskom jeziku jer je ekstenzija pravljena prije svega za srpsko govorno područje.
+4. Same poruke kao i naziv grana može biti na engleskom i srpskom jeziku jer je ekstenzija pravljena prije svega za srpsko govorno područje.
 
 5. Push-uj promjene.
 

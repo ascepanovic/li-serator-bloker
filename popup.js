@@ -13,6 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
         const names = textarea.value.split("\n").map(name => name.trim()).filter(name => name);
         chrome.storage.sync.set({ blocklist: names }, () => {
             alert("Block-lista je dopunjena!");
+            // Reload the current tab after alert
+            chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+                chrome.tabs.reload(tabs[0].id); // reloads the current tab to see the changes
+            });
         });
     });
 });

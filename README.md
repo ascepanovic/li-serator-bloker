@@ -80,4 +80,4 @@ Hvala [Stanislav-u](https://www.linkedin.com/in/stanislavmanovic/) na korkecijam
 
 # 📄 Licenca
 
-MIT
+ GPL-3.0 license

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Serator Bloker",
+  "version": "1.0",
+  "description": "Blokira odredjene individue iz tvog LinkedIn feeda, tako da ne moras da gledas carape, snimke iz teretane, politicke promocije i slicna sranja",
+  "permissions": ["storage", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.linkedin.com/*"],
+      "js": ["blocklist.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

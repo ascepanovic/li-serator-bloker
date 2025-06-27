@@ -22,17 +22,38 @@ textarea {
 }
 
 button {
-    margin-top: 8px;
-    width: 100%;
-    padding: 6px;
+    width: fit-content;
+    padding: 10px 16px;
     background-color: #3b82f6;
     border: none;
     color: white;
     font-weight: bold;
     border-radius: 4px;
     cursor: pointer;
+    margin: 16px auto 0;
+    display: flex;
 }
 
 button:hover {
     background-color: #2563eb;
+}
+
+button:disabled {
+    background-color: #94a3b8;
+    cursor: not-allowed;
+}
+
+button#close {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #1f2d3d;
+    position: absolute;
+    top: -5px;
+    right: 10px;
+}
+
+button#close svg {
+    width: 14px;
+    height: 14px;
 }

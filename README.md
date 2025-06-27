@@ -3,10 +3,10 @@
 Je jednostavna ekstenzija za Chrome browser, napravljena prevashodno iz lične frustracije zbog (povremeno) katastrofalnog sadržaja u LinkedIn feed-u.  
 Iako blokiram i "unfollow"-ujem neke osobe, određene individue ipak uspijevaju da završe u mom feed-u a zaista mi se ne čitaju a ni ne gledaju koje kakve gluposti (ovo je lični utisak a ne potreba da vrijeđam bilo koga).
 
-Stoga, ova ekstenzija (bar se nadam) efikasno blokira komentare, lajkove i postove od ljudi/kompanija koje ne želite da viđate, jer se kao što već rekoh ispostavilo da LinkedIn-ov ugrađeni block feature jednostavno nije dovoljan.  
+Stoga, ova ekstenzija (bar se nadam) efikasno blokira komentare, lajkove i postove od ljudi/kompanija koje ne želite da viđate, jer se ispostavilo da LinkedIn-ov ugrađeni block feature jednostavno nije dovoljan.  
 Ja nisam Frontend programer a ni UI nije oblast mog djelovanja pa vas molim da eventualne greške u funkcionalnosti ili kodu ispravite ili da mi bar ukažete na iste.
 
-Ista je testirana na mašinama novije gnereacije (MacOS i Windows) i autor ne snosi nikakvu odgvornost u slušaju da ekstenzija ne radi na vašem rašunaru.
+Ista je testirana na mašinama novije gnereacije (MacOS i Windows) i autor ne snosi nikakvu odgvornost u slučaju da ekstenzija ne radi na vašem rašunaru.
 
 Svaki PR za poboljšanje funkcionalnosti je dobrodošao!
 
@@ -57,7 +57,7 @@ Nakon toga, možemo da krenemo dalje:
    
 4. Same poruke kao i naziv grana može biti na Engleskom i Srpskom jeziku jer je ekstenzija pravljena prije svega za Srpsko govorno pordučje.
 
-5. Push-uj promjene
+5. Push-uj promjene.
 
 6. Otvori Pull Request preko GitHub-a ka main grani:
    👉 [LI Serator Bloker](https://github.com/ascepanovic/li-serator-bloker)

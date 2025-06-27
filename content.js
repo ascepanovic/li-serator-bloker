@@ -15,4 +15,4 @@ const observerInterval = setInterval(() => {
     if (window.blockedNames && window.blockedNames.length > 0) {
         hideBlockedPosts();
     }
-}, 0); // giving it a 0  will also be delayed since it's put in a queue
+}, 0); // giving it a 0 will also be delayed since it's put in a queue

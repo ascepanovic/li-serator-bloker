@@ -2,14 +2,14 @@
   "manifest_version": 3,
   "name": "LinkedIn Serator Bloker",
   "version": "1.0",
-  "description": "Blokira odredjene individue iz tvog LinkedIn feeda, tako da ne moras da gledas carape, snimke iz teretane, politicke promocije i slicna sranja",
+  "description": "Blokira individue/kompanije iz tvog LI feeda, tako da ne moraš da gledaš čarape, snimke iz teretane, političke promocije i slična sranja.",
   "permissions": ["storage", "tabs"],
   "host_permissions": ["*://www.linkedin.com/*"],
   "icons": {
-    "16": "icons/logo_2_1024.png",
-    "32": "icons/logo_2_1024.png",
-    "48": "icons/logo_2_1024.png",
-    "128": "icons/logo_2_1024.png"
+    "16": "icons/logo_5012.png",
+    "32": "icons/logo_5012.png",
+    "48": "icons/logo_5012.png",
+    "128": "icons/logo_5012.png"
   },
   "background": {
     "service_worker": "serviceworker.js"
@@ -17,10 +17,10 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icons/logo_2_1024.png",
-      "32": "icons/logo_2_1024.png",
-      "48": "icons/logo_2_1024.png",
-      "128": "icons/logo_2_1024.png"
+      "16": "icons/logo_5012.png",
+      "32": "icons/logo_5012.png",
+      "48": "icons/logo_5012.png",
+      "128": "icons/logo_5012.png"
     }
   },
   "content_scripts": [

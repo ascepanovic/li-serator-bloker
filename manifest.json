@@ -3,12 +3,16 @@
   "name": "LinkedIn Serator Bloker",
   "version": "1.0",
   "description": "Blokira odredjene individue iz tvog LinkedIn feeda, tako da ne moras da gledas carape, snimke iz teretane, politicke promocije i slicna sranja",
-  "permissions": ["storage", "scripting"],
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["*://www.linkedin.com/*"],
   "icons": {
     "16": "icons/logo_2_1024.png",
     "32": "icons/logo_2_1024.png",
     "48": "icons/logo_2_1024.png",
     "128": "icons/logo_2_1024.png"
+  },
+  "background": {
+    "service_worker": "serviceworker.js"
   },
   "action": {
     "default_popup": "popup.html",

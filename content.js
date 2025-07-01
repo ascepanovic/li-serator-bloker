@@ -26,8 +26,23 @@ function hideBlockedPosts() {
     });
 }
 
-const observerInterval = setInterval(() => {
-    if (window.blockedNames && window.blockedNames.length > 0) {
-        hideBlockedPosts();
-    }
-}, 500);
+// Initial run in case posts are already loaded
+if (window.blockedNames && window.blockedNames.length > 0) {
+    hideBlockedPosts();
+}
+
+// Find the main feed container (adjust selector if needed)
+const feedContainer = document.querySelector('main') || document.body;
+
+if (feedContainer) {
+    const observer = new MutationObserver(() => {
+        if (window.blockedNames && window.blockedNames.length > 0) {
+            hideBlockedPosts();
+        }
+    });
+
+    observer.observe(feedContainer, {
+        childList: true,
+        subtree: true
+    });
+}
